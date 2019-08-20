@@ -13,9 +13,11 @@ CORS(app)
 def hello_world():
     params = json.loads(request.data)
     nlp_area_field = params.get('data').get('nlp_area_field')
-    proccessed_data = NLP.getKeys(nlp_area_field)
 
-    return json.dumps(proccessed_data)
+    proccessed_data = NLP.getKeys(nlp_area_field)
+    proccessed_data_join = NLP.getKeysJoin(nlp_area_field)
+
+    return json.dumps([proccessed_data, proccessed_data_join])
 
 
 if __name__ == '__main__':
