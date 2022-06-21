@@ -21,7 +21,7 @@ MarkupSafe==1.1.1
 murmurhash==1.0.2
 mwparserfromhell==0.5.4
 networkx==2.3
-numpy==1.17.0
+numpy==1.22.0
 plac==0.9.6
 preshed==2.0.1
 pyemd==0.5.1
