@@ -16,7 +16,7 @@ ijson==2.4
 itsdangerous==1.1.0
 jellyfish==0.6.1
 Jinja2==2.10.1
-joblib==0.13.2
+joblib==1.2.0
 MarkupSafe==1.1.1
 murmurhash==1.0.2
 mwparserfromhell==0.5.4
